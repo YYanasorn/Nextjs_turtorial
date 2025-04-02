@@ -63,6 +63,15 @@ const AppHeader = () => {
               เข้าระบบ
             </Link>
             </Button>
+            <Button asChild>
+            <Link
+              className="inline-flex justify-center gap-0.5 overflow-hidden rounded-full bg-zinc-900 px-3 py-1 text-sm/6 font-medium text-white transition hover:bg-zinc-700"
+              href="/signup"
+            >
+              สมัครสมาชิก
+            </Link>
+            </Button>
+
           </div>
         </div>
       </div>
